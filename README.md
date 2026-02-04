@@ -14,7 +14,7 @@ Immutability at the OS level is gaining traction as a way to simplify, secure, a
 - Add and manage read-only worker nodes
 - Upgrade nodes manually or via Kubernetes-native workflows
 - Create your own tailored, immutable OS image
-- Integrating OS builds into your CI/CD pipelines
+- Integrate OS builds into your CI/CD pipelines
 
 ### If time allows, we'll also explore:
 - Air-gapped and hybrid-cloud deployments
@@ -31,7 +31,7 @@ This workshop is designed for **platform engineers, SREs, and solution architect
 
 ## Workshop Outline
 
-1. **What are immutable OS and how to think about operations with this paradigm**
+1. **What is an immutable OS and how to think about operations with this paradigm**
 
     Explore the philosophy and architecture of immutable systems versus traditional configuration management tools. Learn how immutability enables atomic upgrades, reduced drift, simplified recovery, and stronger security postures.
 
@@ -105,7 +105,7 @@ This workshop is designed for **platform engineers, SREs, and solution architect
 
 - **PXE/netboot cluster bootstrapping**
 
-    Use AuroraBoot to provision nodes over the network without local install media i.e. cdrom/usb
+    Use AuroraBoot to provision nodes over the network without local install media i.e., cdrom/usb
 
     **Resources**
     - [Netboot](https://kairos.io/docs/installation/netboot/)
