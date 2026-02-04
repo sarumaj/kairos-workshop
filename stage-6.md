@@ -10,7 +10,7 @@ stages (multi-node or single-node).
 
 The following command needs `git` to be in the PATH. If you added `git` to your
 Kairos image as per the example on [stage-2](stage-2.md), you should be able to
-issue this command from withing the master node. Otherwise, you'll need to copy
+issue this command from within the master node. Otherwise, you'll need to copy
 the k3s kubeconfig (`/etc/rancher/k3s/k3s.yaml`) to your host machine (assuming
 `git` is available there), change the values in the file to point to the IP address
 of the master node and issue the command from your host machine.
