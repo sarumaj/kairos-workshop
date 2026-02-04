@@ -46,7 +46,7 @@ jobs:
       grype_sarif: false
       trivy_sarif: false
       registry_domain: ghcr.io
-      registry_namespace: ${{ github.repository_owner }}
+      registry_namespace: ${{ github.repository_owner }}/${{ github.event.repository.name }} 
       registry_repository: kairos-custom
       custom_tag_format: ${{ github.event.release.tag_name || inputs.tag_name }}
       summary_artifacts: false
