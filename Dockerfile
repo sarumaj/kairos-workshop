@@ -1,6 +1,6 @@
 ARG BASE_IMAGE=debian:latest
 
-FROM quay.io/kairos/kairos-init:v0.11.0 AS kairos-init
+FROM quay.io/kairos/kairos-init:v0.12.1 AS kairos-init
 
 FROM ${BASE_IMAGE} AS base-kairos
 
